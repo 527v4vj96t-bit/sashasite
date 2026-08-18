@@ -12,7 +12,7 @@
   <header class="navbar">
     <div class="logo"><span class="small-logo">the</span> "WEB.SASHA"</div>
     <nav class="nav-links">
-      <a href="#about">Обо мне</a>
+      <a href="#about">Обо мне</a>.
       <a href="#services">Услуги</a>
       <a href="#contact">Контакты</a>
     </nav>
