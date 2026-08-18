@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WEB.DEV — Саша</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Навигация -->
+  <header class="navbar">
+    <div class="logo"><span class="small-logo">the</span> "WEB.SASHA"</div>
+    <nav class="nav-links">
+      <a href="#about">Обо мне</a>
+      <a href="#services">Услуги</a>
+      <a href="#contact">Контакты</a>
+    </nav>
+    <a href="https://t.me/moliks23" target="_blank" class="btn-primary">Написать в TG</a>
+  </header>
+
+  <!-- Главный экран -->
+  <section class="hero">
+    <h1>Привет, я <span class="gradient-text">Саша</span></h1>
+    <p class="hero-subtitle">Создаю сайты, которые привлекают клиентов и работают на <strong>ваш бизнес</strong>.</p>
+    <p class="hero-badge">Сделаю бесплатный макет для вашего сайта</p>
+    <div class="hero-buttons">
+      <a href="#services" class="btn-dark">Заказать сайт</a>
+      <a href="#about" class="btn-light">Смотреть работы</a>
+    </div>
+  </section>
+
+  <!-- Секция: Обо мне -->
+  <section id="about" class="section">
+    <div class="section-tag">01</div>
+    <h2>Обо мне</h2>
+    <div class="glass-card about-card">
+      <div class="about-content">
+        <p>Я — веб-разработчик. Создаю быстрые, адаптивные и функциональные сайты на HTML5, CSS3 и JavaScript.</p>
+        <p>В работе ценю лаконичность, безупречную типографику, плавные интерактивные анимации и чистый код.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Секция: Услуги -->
+  <section id="services" class="section">
+    <div class="section-tag">02</div>
+    <h2>Услуги и стоимость</h2>
+    <div class="glass-card service-card">
+      <span class="badge">ПОПУЛЯРНОЕ РЕШЕНИЕ</span>
+      <h3>Сайт «под ключ»</h3>
+      <div class="price">50€</div>
+      <ul class="features-list">
+        <li>Чистый минималистичный дизайн</li>
+        <li>100% адаптивность (смартфоны, планшеты, ПК)</li>
+        <li>Высокая скорость загрузки</li>
+        <li>Интеграция заявок прямо в Telegram</li>
+      </ul>
+      <a href="https://t.me/moliks23" target="_blank" class="btn-dark full-width">Купить сайт за 50€</a>
+    </div>
+  </section>
+
+  <!-- Секция: Контакты -->
+  <section id="contact" class="section">
+    <div class="section-tag">03</div>
+    <h2>Связаться</h2>
+    <div class="glass-card contact-card">
+      <h3>Готовы обсудить проект?</h3>
+      <p>Напишите мне напрямую — отвечу на все вопросы и помогу составить структуру вашего будущего сайта.</p>
+      <a href="https://t.me/moliks23" target="_blank" class="btn-dark">Написать напрямую в Telegram</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 WEB.SASHA | Разработка современных сайтов</p>
+  </footer>
+
+</body>
+</html>
